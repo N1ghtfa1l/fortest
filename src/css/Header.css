@@ -1,0 +1,80 @@
+.Header {
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #bbb8b8;
+  width: 1400px;
+}
+.HeaderNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderPage {
+  background: orange;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.HeaderPage:hover {
+  background: rgb(226, 187, 114);
+}
+
+.HeaderUl {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.HeaderButton {
+  background: black;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.HeaderButton:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+.HeaderButtonActive {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+.headerSelect {
+  font-family: "Montserrat";
+  position: relative;
+}
+.headerSelectButton {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 12px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  width: 110px;
+}
+.sortPopup {
+  position: absolute;
+  right: 0;
+  background-color: white;
+}
+.sortPopup li {
+  font-family: "Montserrat";
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.sortPopup li:hover {
+  background-color: rgb(236, 212, 167);
+}
+.liActive {
+  color: orange;
+}

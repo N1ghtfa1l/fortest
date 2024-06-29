@@ -1,0 +1,72 @@
+.CartPage {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+.cartBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartPageTitle {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.cartPageBack {
+  background: black;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 700;
+  align-self: flex-start;
+  margin: 20px;
+}
+.cartPageBack:hover {
+  background-color: rgb(129, 126, 126);
+}
+.cartPageDesc {
+  width: 190px;
+}
+.cartPageDelete {
+  background: orange;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.cartPageDelete:hover {
+  background: rgb(238, 206, 145);
+}
+.cartPagePrice {
+  padding: 10px 0;
+  cursor: pointer;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.cartPageSubtitle {
+  margin: 10px 0;
+}
+.cartPageInfo {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+.cartPageInfoTitle,
+.cartPageInfoPrice {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
